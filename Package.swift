@@ -8,7 +8,9 @@ let package = Package(name: "PerfectSMTP",
     targets: [
         .target(
             name: "PerfectSMTP",
-            dependencies: ["PerfectCURL"]),
+            dependencies: ["PerfectCURL"],
+            path: "Sources/PerfectSMTP"
+        ),
 //        .testTarget(
 //            name: "PerfectSMTPTests",
 //            dependencies: ["PerfectSMTP"]),
